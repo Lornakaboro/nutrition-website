@@ -19,6 +19,7 @@
   </head>
   <body>
     <header class="introduction-section">
+    <nav>
       <div class="hamburger-icon d-md-none">
         <i
           class="fa fa-bars hamburger"
@@ -38,6 +39,7 @@
           <ul class="nav-dropdown">
             <li class="nav-dropdown-item">
               <a
+                href="#introduction-section"
                 class="nav-dropdown-item-link"
                 onclick="openDropdownItem(this,'#introduction-section')"
                 >About</a
@@ -45,6 +47,7 @@
             </li>
             <li class="nav-dropdown-item">
               <a
+                href="#program"
                 class="nav-dropdown-item-link"
                 onclick="openDropdownItem(this, '#about-me')"
                 >Program</a
@@ -59,6 +62,7 @@
             </li>
             <li class="nav-dropdown-item">
               <a
+                href="#sponsors"
                 class="nav-dropdown-item-link"
                 onclick="openDropdownItem(this, '#contact-me')"
                 >Sponsor</a
@@ -125,6 +129,7 @@
           <li class="col-3"><a href="#" class="nav-item">Nuweh programs</a></li>
         </ul>
       </div>
+    </nav>
     </header>
 
     <!-- intro-section -->
@@ -326,7 +331,7 @@
       </div>
     </div>
 
-    <div class="sponsors container-fluid">
+    <div class="sponsors container-fluid" id="sponsors">
       <h3 class="text-center">Sponsors</h3>
       <ul class="sponsor-items">
         <li class="col">KNDI</li>

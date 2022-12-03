@@ -36,6 +36,8 @@
   font-weight: 600;
   font-size: 32px;
   line-height: 62px;
+  text-align: center;
+  margin-left: 6%;
 }
 
 .nav-dropdown {
@@ -292,13 +294,40 @@
   color: #fff;
 }
 
-.feature-programs-image {
-  width: 90%;
-  height: 70%;
-}
+.feature-program-name {
+    margin: 0 3%;
+    background-image: linear-gradient(rgba(228, 43, 23, 0.5), rgba(221, 43, 23, 0.5)), url(./images/meal\ plan.jpg);
+    padding: 10% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5%;
+
+  }
+  
+  .feature-program-name2 {
+    margin: 0 3%;
+    background-image: linear-gradient(rgba(228, 43, 23, 0.5), rgba(221, 43, 23, 0.5)), url(./images/Meal-plan\ 2.png);
+    padding: 10% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5%;
+  }
 
 .feature-program-name {
   text-align: center;
+}
+
+.feature-program-heading {
+    font-size: 20px;
+    font-weight: 900;
+    color: #f0f2f5;
+    text-align: center
+}
+
+.feature-program-description {
+    font-weight: 900;
+    color: #f0f2f5;
+    text-align: center
 }
 
 .project-rights-about {
@@ -425,6 +454,7 @@
     margin-bottom: 10px;
     margin-left: 0;
     margin-right: 0;
+    text-align: center;
   }
 
   .menu {
@@ -474,10 +504,24 @@
 
   .feature-programs {
     display: flex;
+    flex: row;
   }
 
   .feature-program-name {
     flex: 1;
     text-align: center;
   }
+
+  .feature-program-heading {
+    font-size: 20px;
+    font-weight: 900;
+    color: #f0f2f5;
+    
+}
+
+.feature-program-description {
+    font-weight: 900;
+    color: #f0f2f5;
+    
+}
 }
