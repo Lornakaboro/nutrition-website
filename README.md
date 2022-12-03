@@ -1,13 +1,12 @@
-# nutrition-website
-Nutrition, the future of healthcare
+
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Fashion Week 2022] <a name="about-project"></a>
+# 📖 [NUWEH] <a name="about-project"></a>
 
-> A website that tell and shows more information about a fashion event that is held annually.
+> Nutrition, the future of healthcare
 
-**[Fashion Week 2022]** is a Capstone from microverse.
+**[NUWEH]** is a Capstone from microverse.
 
 ## 🛠 Built With <a name="built-with"></a>
 
