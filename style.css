@@ -296,11 +296,7 @@
 
 .feature-program-name {
   margin: 0 3%;
-  background-image: linear-gradient(
-      rgba(228, 43, 23, 0.5),
-      rgba(221, 43, 23, 0.5)
-    ),
-    url(./images/meal\ plan.jpg);
+  background-image: linear-gradient(rgba(228, 43, 23, 0.5), rgba(221, 43, 23, 0.5)), url(./images/meal\ plan.jpg);
   padding: 10% 20%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -310,11 +306,7 @@
 
 .feature-program-name2 {
   margin: 0 3%;
-  background-image: linear-gradient(
-      rgba(228, 43, 23, 0.5),
-      rgba(221, 43, 23, 0.5)
-    ),
-    url(./images/Meal-plan\ 2.png);
+  background-image: linear-gradient(rgba(228, 43, 23, 0.5),rgba(221, 43, 23, 0.5) ), url(./images/Meal-plan\ 2.png);
   padding: 10% 20%;
   background-size: cover;
   background-repeat: no-repeat;
