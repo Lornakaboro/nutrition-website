@@ -1,3 +1,8 @@
+*{
+    font-family:'lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 .dropdown-menu-nuweh {
   position: absolute;
   z-index: 10;
@@ -67,6 +72,7 @@
 .intro-section {
   background-image: url("./images/background-image.png");
   height: 100vh;
+  /* background-repeat: no-repeat; */
 }
 
 .introduction {
@@ -78,14 +84,19 @@
   font-size: 40px;
   font-weight: 700;
   width: 100%;
+  font-family:'lato', sans-serif;
 }
 
+.introduction-slogan {
+    font-family:'lato', sans-serif; 
+}
 .introduction-description {
   width: 100%;
   background-color: #e7e7e7;
   border: #fff solid 2px;
   color: #58595a;
   padding: 0.8rem;
+  font-family:'lato', sans-serif;
 }
 
 .introduction-offers {
@@ -107,13 +118,14 @@
   flex-direction: column;
   padding-top: 20px;
   padding-bottom: 20px;
-  width: 100%;
+  width: auto;
 }
 
 .item {
   display: flex;
   align-items: center;
   background-color: #444242;
+  gap: 2%;
   color: #d3d3d3;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -122,6 +134,10 @@
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.item-icon {
+    padding-right: 4%;
 }
 
 .main-program {
@@ -142,9 +158,39 @@
   width: 20%;
 }
 
+.specialist-heading {
+    margin-top: 10px;
+    font-size: 25px;
+    color: #272a31;
+
+}
+
+
+.featured-specialists-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
 .specialist-image {
-  width: 50%;
-  height: 50%;
+  width: 190px;
+  height: 130px;
+  margin-top: 30px;
+}
+
+.specialist-name {
+    font-size: 20px;
+    text-align: left;
+    font-weight: 900;
+}
+
+.specialist-title {
+    font-size: 13px;
+    text-align: left;
+    color: #ec5242;
+    font-style: italic;
+    font-weight: 900;
 }
 
 .sponsors {
@@ -409,10 +455,17 @@
   .sponsor-items {
     list-style: none;
     display: flex;
-    width: 75%;
+    width: 50%;
     font-size: 48px;
     padding-left: 4.5%;
   }
+
+  .featured-specialists-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
 
   .about-introduction-message {
     font-size: 60px;
