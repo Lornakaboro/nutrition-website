@@ -77,6 +77,7 @@ Clone this repository to your desired folder:
 ```sh
   cd my-folder
   git clone https://github.com/Lornakaboro/nutrition-website.git
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
 
