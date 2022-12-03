@@ -1,7 +1,7 @@
-*{
-    font-family:'lato', sans-serif;
-    margin: 0;
-    padding: 0;
+* {
+  font-family: "lato", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 .dropdown-menu-nuweh {
   position: absolute;
@@ -84,11 +84,11 @@
   font-size: 40px;
   font-weight: 700;
   width: 100%;
-  font-family:'lato', sans-serif;
+  font-family: "lato", sans-serif;
 }
 
 .introduction-slogan {
-    font-family:'lato', sans-serif; 
+  font-family: "lato", sans-serif;
 }
 .introduction-description {
   width: 100%;
@@ -96,7 +96,7 @@
   border: #fff solid 2px;
   color: #58595a;
   padding: 0.8rem;
-  font-family:'lato', sans-serif;
+  font-family: "lato", sans-serif;
 }
 
 .introduction-offers {
@@ -137,7 +137,7 @@
 }
 
 .item-icon {
-    padding-right: 4%;
+  padding-right: 4%;
 }
 
 .main-program {
@@ -159,18 +159,15 @@
 }
 
 .specialist-heading {
-    margin-top: 10px;
-    font-size: 25px;
-    color: #272a31;
-
+  margin-top: 10px;
+  font-size: 25px;
+  color: #272a31;
 }
 
-
-.featured-specialists-container{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-
+.featured-specialists-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .specialist-image {
@@ -180,17 +177,17 @@
 }
 
 .specialist-name {
-    font-size: 20px;
-    text-align: left;
-    font-weight: 900;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 900;
 }
 
 .specialist-title {
-    font-size: 13px;
-    text-align: left;
-    color: #ec5242;
-    font-style: italic;
-    font-weight: 900;
+  font-size: 13px;
+  text-align: left;
+  color: #ec5242;
+  font-style: italic;
+  font-weight: 900;
 }
 
 .sponsors {
@@ -460,12 +457,11 @@
     padding-left: 4.5%;
   }
 
-  .featured-specialists-container{
+  .featured-specialists-container {
     display: flex;
     flex-direction: row;
     width: 100%;
-
-}
+  }
 
   .about-introduction-message {
     font-size: 60px;
