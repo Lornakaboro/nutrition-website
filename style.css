@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 .dropdown-menu-nuweh {
   position: absolute;
   z-index: 10;
@@ -72,7 +73,6 @@
 .intro-section {
   background-image: url("./images/background-image.png");
   height: 100vh;
-  /* background-repeat: no-repeat; */
 }
 
 .introduction {
@@ -90,6 +90,7 @@
 .introduction-slogan {
   font-family: "lato", sans-serif;
 }
+
 .introduction-description {
   width: 100%;
   background-color: #e7e7e7;
@@ -142,7 +143,6 @@
 
 .main-program {
   font-family: "Cocogoose", sans-serif;
-  font-size: 250;
   color: #d3d3d3;
   display: flex;
   justify-content: center;
