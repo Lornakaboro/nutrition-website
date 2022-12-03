@@ -63,3 +63,22 @@ const specialistData = [
     'Registered nutritionist specializing in nutrional assesments,diagonosis and evaluations.',
 },
 ];
+
+for (let i = 0; i < specialistData.length; i += 1) {
+  document.querySelector('.featured-specialists-container').innerHTML += ` 
+  <div class="specialist-content col-sm-12 col-md-6 row mb-4">
+          <img
+            src="${specialistData[i].featuredImage}"
+            alt=""
+            class="specialist-image col-4"
+          />
+          <div class="col-8">
+            <h4 class="specialist-name">${specialistData[i].name}</h4>
+            <p class="specialist-title">${specialistData[i].specialization}</p>
+            <p class="specialist-description">
+            ${specialistData[i].description}
+            </p>
+          </div>
+        </div>
+    `;
+}
